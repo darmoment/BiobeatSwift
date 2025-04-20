@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B461FE32DB3268300C467DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B461FE22DB3268300C467DF /* GoogleService-Info.plist */; };
+		5B461FE42DB3268300C467DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B461FE22DB3268300C467DF /* GoogleService-Info.plist */; };
+		5B461FE52DB3268300C467DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B461FE22DB3268300C467DF /* GoogleService-Info.plist */; };
+		5B461FE62DB3268300C467DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B461FE22DB3268300C467DF /* GoogleService-Info.plist */; };
+		5B461FE92DB3291B00C467DF /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 5B461FE82DB3291B00C467DF /* FirebaseCore */; };
+		5B7F35092DB3180C007CDB62 /* FirebaseSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7F35082DB31804007CDB62 /* FirebaseSender.swift */; };
 		5BDDA9112DA4DC77008A3DB8 /* Biobeat Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5BDDA9102DA4DC77008A3DB8 /* Biobeat Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5BDDA9162DA4DC77008A3DB8 /* BiobeatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA9152DA4DC77008A3DB8 /* BiobeatApp.swift */; };
-		5BDDA9182DA4DC77008A3DB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA9172DA4DC77008A3DB8 /* ContentView.swift */; };
 		5BDDA91A2DA4DC78008A3DB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BDDA9192DA4DC78008A3DB8 /* Assets.xcassets */; };
 		5BDDA91D2DA4DC78008A3DB8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BDDA91C2DA4DC78008A3DB8 /* Preview Assets.xcassets */; };
 		5BDDA9272DA4DC78008A3DB8 /* Biobeat_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA9262DA4DC78008A3DB8 /* Biobeat_Watch_AppTests.swift */; };
 		5BDDA9312DA4DC78008A3DB8 /* Biobeat_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA9302DA4DC78008A3DB8 /* Biobeat_Watch_AppUITests.swift */; };
 		5BDDA9332DA4DC78008A3DB8 /* Biobeat_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA9322DA4DC78008A3DB8 /* Biobeat_Watch_AppUITestsLaunchTests.swift */; };
+		5BDDA9452DA5974A008A3DB8 /* BioControlled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA9442DA5974A008A3DB8 /* BioControlled.swift */; };
+		5BDDA9472DA59771008A3DB8 /* UserControlled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA9462DA59771008A3DB8 /* UserControlled.swift */; };
+		5BDDA9492DA5A111008A3DB8 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA9482DA5A111008A3DB8 /* MainMenuView.swift */; };
+		5BDDA94B2DA5A8DE008A3DB8 /* WebSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA94A2DA5A8DE008A3DB8 /* WebSocketManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,10 +65,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5B461FE22DB3268300C467DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5B7F34FA2DB026D5007CDB62 /* Biobeat-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Biobeat-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		5B7F35082DB31804007CDB62 /* FirebaseSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseSender.swift; sourceTree = "<group>"; };
 		5BDDA90A2DA4DC77008A3DB8 /* Biobeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Biobeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BDDA9102DA4DC77008A3DB8 /* Biobeat Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Biobeat Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BDDA9152DA4DC77008A3DB8 /* BiobeatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiobeatApp.swift; sourceTree = "<group>"; };
-		5BDDA9172DA4DC77008A3DB8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5BDDA9192DA4DC78008A3DB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BDDA91C2DA4DC78008A3DB8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5BDDA9222DA4DC78008A3DB8 /* Biobeat Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Biobeat Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +78,11 @@
 		5BDDA92C2DA4DC78008A3DB8 /* Biobeat Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Biobeat Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BDDA9302DA4DC78008A3DB8 /* Biobeat_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biobeat_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		5BDDA9322DA4DC78008A3DB8 /* Biobeat_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biobeat_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5BDDA9432DA59395008A3DB8 /* Biobeat Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Biobeat Watch App.entitlements"; sourceTree = "<group>"; };
+		5BDDA9442DA5974A008A3DB8 /* BioControlled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioControlled.swift; sourceTree = "<group>"; };
+		5BDDA9462DA59771008A3DB8 /* UserControlled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserControlled.swift; sourceTree = "<group>"; };
+		5BDDA9482DA5A111008A3DB8 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		5BDDA94A2DA5A8DE008A3DB8 /* WebSocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B461FE92DB3291B00C467DF /* FirebaseCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,12 +111,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B7F35012DB2F517007CDB62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5BDDA9032DA4DC77008A3DB8 = {
 			isa = PBXGroup;
 			children = (
 				5BDDA9142DA4DC77008A3DB8 /* Biobeat Watch App */,
 				5BDDA9252DA4DC78008A3DB8 /* Biobeat Watch AppTests */,
 				5BDDA92F2DA4DC78008A3DB8 /* Biobeat Watch AppUITests */,
+				5B7F35012DB2F517007CDB62 /* Frameworks */,
 				5BDDA90B2DA4DC77008A3DB8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -118,8 +143,15 @@
 		5BDDA9142DA4DC77008A3DB8 /* Biobeat Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				5B461FE22DB3268300C467DF /* GoogleService-Info.plist */,
+				5B7F35082DB31804007CDB62 /* FirebaseSender.swift */,
+				5B7F34FA2DB026D5007CDB62 /* Biobeat-Watch-App-Info.plist */,
+				5BDDA9432DA59395008A3DB8 /* Biobeat Watch App.entitlements */,
 				5BDDA9152DA4DC77008A3DB8 /* BiobeatApp.swift */,
-				5BDDA9172DA4DC77008A3DB8 /* ContentView.swift */,
+				5BDDA9482DA5A111008A3DB8 /* MainMenuView.swift */,
+				5BDDA9442DA5974A008A3DB8 /* BioControlled.swift */,
+				5BDDA9462DA59771008A3DB8 /* UserControlled.swift */,
+				5BDDA94A2DA5A8DE008A3DB8 /* WebSocketManager.swift */,
 				5BDDA9192DA4DC78008A3DB8 /* Assets.xcassets */,
 				5BDDA91B2DA4DC78008A3DB8 /* Preview Content */,
 			);
@@ -259,6 +291,9 @@
 				Base,
 			);
 			mainGroup = 5BDDA9032DA4DC77008A3DB8;
+			packageReferences = (
+				5B461FE72DB3287200C467DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 5BDDA90B2DA4DC77008A3DB8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -276,6 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B461FE52DB3268300C467DF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +321,7 @@
 			files = (
 				5BDDA91D2DA4DC78008A3DB8 /* Preview Assets.xcassets in Resources */,
 				5BDDA91A2DA4DC78008A3DB8 /* Assets.xcassets in Resources */,
+				5B461FE42DB3268300C467DF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +329,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B461FE32DB3268300C467DF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +337,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B461FE62DB3268300C467DF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,8 +348,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BDDA9182DA4DC77008A3DB8 /* ContentView.swift in Sources */,
+				5BDDA9492DA5A111008A3DB8 /* MainMenuView.swift in Sources */,
+				5BDDA94B2DA5A8DE008A3DB8 /* WebSocketManager.swift in Sources */,
+				5BDDA9472DA59771008A3DB8 /* UserControlled.swift in Sources */,
+				5BDDA9452DA5974A008A3DB8 /* BioControlled.swift in Sources */,
 				5BDDA9162DA4DC77008A3DB8 /* BiobeatApp.swift in Sources */,
+				5B7F35092DB3180C007CDB62 /* FirebaseSender.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,12 +514,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Biobeat Watch App/Biobeat Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Biobeat Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = PCLB3K8C8V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Biobeat-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Biobeat;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app uses HealthKit to read your heart rate data to analyze dancing intensity.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app writes HealthKit data to track your physiological responses to music.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -491,7 +539,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Debug;
 		};
@@ -500,12 +548,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Biobeat Watch App/Biobeat Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Biobeat Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = PCLB3K8C8V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Biobeat-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Biobeat;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app uses HealthKit to read your heart rate data to analyze dancing intensity.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app writes HealthKit data to track your physiological responses to music.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -521,7 +574,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Release;
 		};
@@ -529,14 +582,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PCLB3K8C8V;
 				INFOPLIST_KEY_CFBundleDisplayName = Biobeat;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = hci.Biobeat;
+				PRODUCT_BUNDLE_IDENTIFIER = biobeat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Debug;
 		};
@@ -544,15 +604,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PCLB3K8C8V;
 				INFOPLIST_KEY_CFBundleDisplayName = Biobeat;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = hci.Biobeat;
+				PRODUCT_BUNDLE_IDENTIFIER = biobeat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Release;
 		};
@@ -572,7 +639,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Biobeat Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Biobeat Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Debug;
 		};
@@ -593,7 +660,7 @@
 				TARGETED_DEVICE_FAMILY = 4;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Biobeat Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Biobeat Watch App";
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Release;
 		};
@@ -685,6 +752,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5B461FE72DB3287200C467DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5B461FE82DB3291B00C467DF /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B461FE72DB3287200C467DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5BDDA9042DA4DC77008A3DB8 /* Project object */;
 }

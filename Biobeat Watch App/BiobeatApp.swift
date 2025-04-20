@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import FirebaseCore
 
 @main
 struct Biobeat_Watch_AppApp: App {
+    init() {
+        FirebaseApp.configure()
+    }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainMenuView()
         }
     }
 }
